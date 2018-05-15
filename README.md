@@ -1,5 +1,5 @@
 # fs-tree-view
-Get struct director
+Get structure directory.
 
 Run example
 ___
@@ -41,3 +41,11 @@ Root folder
 ├── TreeView.js  -- "Annotation class"
 └── example.js  -- "Example use"
 ```
+
+## Authors and developers
+
+ONLY [Igor Stcherbina](https://github.com/eagle7410)
+
+## License
+
+[MIT](https://github.com/eagle7410/fs-tree-view/blob/master/LICENSE)
