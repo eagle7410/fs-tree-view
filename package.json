@@ -1,0 +1,27 @@
+{
+  "name": "fs-tree-view",
+  "version": "1.0.0",
+  "description": "Get directory struct",
+  "main": "TreeView.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eagle7410/fs-tree-view.git"
+  },
+  "keywords": [
+    "fs",
+    "tree",
+    "dir",
+    "tree",
+    "tree",
+    "view"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eagle7410/fs-tree-view/issues"
+  },
+  "homepage": "https://github.com/eagle7410/fs-tree-view#readme"
+}
