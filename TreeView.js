@@ -5,15 +5,8 @@ const readdir     = promisify(fs.readdir);
 const DEFAULT_EXCLUDE = [
 	/node_modules/,
 	/^\.(.*)/,
-	/(.*)\.md/,
 	/webpack.config.js/,
-	/test(.*)/,
-	/(.*)\.txt/,
 	/package(.*)\.json/,
-	/index\.(js|html)/,
-	/dist/,
-	/build(.*)/,
-	/^config$/
 ];
 
 /**
