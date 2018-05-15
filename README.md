@@ -3,12 +3,12 @@ Get structure directory.
 
 Run example
 ___
-```
+```bash
 node example.js
 ```
 
 Code in example.js
-```
+```node
 const TreeView = require('./TreeView');
 const treeView = new TreeView();
 
@@ -29,6 +29,8 @@ void async function () {
 			text : "About license"
 		},
 	]);
+
+	console.log(content);
 }();
 
 ```

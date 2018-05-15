@@ -16,7 +16,6 @@ class TreeView {
 	constructor () {
 		this.tree = {};
 		this.exclude = [];
-		this.root = null;
 		this.scanRules = null;
 	}
 
@@ -33,7 +32,7 @@ class TreeView {
 
 		if (!Array.isArray(exclude)) exclude = [exclude];
 
-		this.exclude = exclude;
+		this.exclude   = exclude;
 		this.scanRules = rules;
 
 		let stats = fs.lstatSync(dir);
@@ -130,7 +129,6 @@ class TreeView {
 			}
 
 			description.map(iter => {
-
 				if (iter.regExp.test(data.path)) {
 					desc = ` -- "${iter.text}"`;
 				}

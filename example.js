@@ -18,4 +18,6 @@ void async function () {
 			text : "About license"
 		},
 	]);
+
+	console.log(content);
 }();
